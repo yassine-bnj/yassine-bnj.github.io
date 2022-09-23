@@ -1,0 +1,290 @@
+/**********scrollbar******/
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #000000;
+    border: 0px solid #ffffff;
+    border-radius: 57px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #98a0dc;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #98a0dc;
+  }
+  ::-webkit-scrollbar-track {
+    background: #dcc1e6;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #ddc4e4;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #ebc6e5;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+/*****section 1 and 2**********/
+*{
+    padding: 0;
+    margin: 0;
+}
+.section1{
+    background-image: url(https://reactheme.com/products/wordpress/echooling/learnpress/wp-content/uploads/2022/01/01-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+/*width: 100%;
+height: 500px;*/
+}
+.section1-1 h1{
+    font-size: 70px;
+line-height: 74px;
+color: #FFFFFF;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight:700 ;
+}
+.section1-1 p{
+    color: white;
+}
+.logo{
+    width: 100px;
+}
+.logo img{
+    width: 100%;
+}
+
+.logsign{
+    position: absolute;
+top: 15px;
+right: 20px;
+display: block;
+width: auto;
+
+}
+.btn-white {
+color: #000;
+background-color: #fff;
+border-color: #fff;
+box-shadow: 0 1px 3px rgba(3,0,71,.09)!important;
+margin-right: 10px;
+}
+.btn-move{
+color: #fff;
+background-color: #754ffe;
+border-color: #754ffe;
+
+}
+header{
+height: 80px;
+}
+.btn-primary{
+font-weight: 600;
+    fill: #0F1216;
+    color: #0F1216;
+    background-color: #FFFFFF;
+    padding: 18px 35px 18px 35px;
+}
+button:hover{
+color: #FFFFFF;
+background-color: #3270FC;
+}
+.section1-2{
+position: relative;
+}
+.img1{
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translateX(-50%);
+z-index: 2;
+width: 60%;
+}
+.img2{
+width: 100%;height: 100%;
+min-height: 400px;z-index: 3;    position: sticky;
+}
+.img3{
+position: absolute; z-index: 1000; top:20px;left: 50px;
+}
+.section2{
+    padding: 60px 30px;}
+.section2 h2{
+font-size: 40px;
+}
+.section2 p{
+font-weight: 600;
+}
+.section2 img{
+width: 100%; height: 400px;
+}
+/*************section 3: equipe******/
+.ourteam{
+    background-color: #7057d6;
+padding:20px 10px 0px 10px;
+margin: 0;
+text-align: center;
+color: white;
+}
+.h-team{
+    background-color: #7057d6;
+}
+.h-team h1{
+color: white; margin: 0;text-align: center;
+}
+.one{
+    height: 250px;
+background-color: #7057d6;
+}
+
+.two{
+    height: 250px;
+    background-color: gainsboro;
+}
+.container-fluido{
+padding: 0px;;
+}
+.team{
+    position: relative;
+}
+.content{
+    position: absolute ;top: 0;left: 0;width: 100%; height: 500px
+}
+.incontent{
+    position: sticky;height: 500px
+}
+.photo{
+position: absolute;
+top: 60px;
+left: 50%;
+transform: translateX(-50%);
+border-radius: 50%;
+height: 140px;
+width: 140px;
+background: white;
+}
+.thelogo{
+height: 100%; width: 100%;
+}
+.incontent-1{
+    height: 70px;width: 70px; border-radius:50%;background-color: white;position: absolute;top:50%;left: 50%;transform: translate(-50%,-50%);-webkit-box-shadow: 0px 3px 15px -2px #000000; 
+box-shadow: 0px 3px 15px -2px #000000;
+}
+.incontent h6{
+    font-size: 30px;color: #1e1356; position: absolute; top: 58%;left: 50%;transform: translateX(-50%);
+}
+.p1{
+    color: #decacc;font-size: 25px; position: absolute; top: 63%;left: 50%;transform: translateX(-50%)
+}
+.p2{
+     color: #43414b; position: absolute; top: 70%;left: 50%;transform: translateX(-50%);   
+     font-weight: 500;text-align:center;
+}
+.incontent ul{
+    list-style: none;position: absolute; top:90%;left: 50%; transform: translateX(-50%);padding-left: 0;
+}
+.incontent li{
+float: left;
+color: white;
+}
+/********services**********/
+.service{
+    width: 100%; background-color: #ffffff;
+   padding: 50px 0 100px 0;
+}
+.service h1{
+   text-align: center;
+   padding: 20px 0;
+}
+.service p{
+padding: 15px 10px;
+margin: 0;
+font-weight: 600;
+text-align: center;
+}
+.contentt{
+margin: 0;
+}
+.contain{
+padding: 0;
+transition: 0.2s;
+max-width: 300px;   border: 1px solid #d1d7dc;
+}
+.contain:hover{
+box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.66);
+-webkit-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.66);
+-moz-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.66);
+transition: 0.2s;
+}
+.service img{
+height: 150px;width: 100%;
+}
+/********section 4 contact *********/
+
+    .section3{
+            padding: 20px;
+    background: #7057d6;
+    
+    }
+    .section3 img{
+        width: 100%;
+        height: 100%;
+    }
+    .section3-1,.section3-2{
+        padding: 30px;
+    }
+    .section3-2 {
+       /* background:#a599e3;*/
+        border-radius: 15px;
+    }
+    .form-control{
+        margin-bottom: 20px;
+    }
+    .form-control::placeholder{
+        font-weight: 600;
+       
+    }
+    .section3-2 h2{
+        color: white;margin: 20px 0;
+    }
+    /**** section 5 adresses nd footer****/
+    .thefooter a{
+        color: white;
+        text-decoration: none;
+    }
+    .thefooter a:hover{
+        color: white;
+    }
+    .thefooter{
+        background-color: #ebecee;
+    padding-top: 90px;
+    }
+ 
+    .thefooter-1{
+        background-color: blueviolet;
+        box-shadow: 0px 0px 16px 0px rgba(40,30,87,0.76);
+        -webkit-box-shadow: 0px 0px 16px 0px rgba(40,30,87,0.76);
+        -moz-box-shadow: 0px 0px 16px 0px rgba(40,30,87,0.76); 
+    }
+    .thefooter-1-1{
+    padding: 20px ;padding-left: 40px;
+    }
+.thefooter img{
+    width: 100%;height: 100%;
+}
+.thefooter-1 h2{
+    color: white;font-size: 40px;
+}
+.thefooter-1 ul li{
+display: block; float: left;margin-left:10px;
+}
+ul{
+    list-style: none;
+}

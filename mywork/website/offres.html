@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/compte.css">
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">">
+    <title>Admin dashboard</title>
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand d-flex d-sm-none d-md-flex">
+            <div class="sidebar-brand-logo">
+               <img src="assets/imagescompte/logo.png" alt="logo" >
+            </div>
+            <div class="sidebar-brand-name">
+                <img src="assets/imagescompte/logotext.png" alt="">
+            </div>
+        </div>
+        
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="compte.html">
+                        <span class="fas fa-home" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboard"></span>
+                        <span>Acceuil
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="fas fa-users" data-bs-toggle="tooltip" data-bs-placement="right" title="Clients">
+
+                        </span><span>Profile</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="matieres.html">
+                        <span class="fas fa-clipboard-list" data-bs-toggle="tooltip" data-bs-placement="right" title="Projects"></span>
+                        <span> Matières</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="offres.html">
+                        <span class="fas fa-shopping-bag" data-bs-toggle="tooltip" data-bs-placement="right" title="Orders"></span>
+                        <span>Offres</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="fas fa-user-circle" data-bs-toggle="tooltip" data-bs-placement="right" title="Accounts"></span>
+                        <span>Caisse</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="fas fa-tasks" data-bs-toggle="tooltip" data-bs-placement="right" title="Tasks"></span>
+                        <span>Assistance</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sidebar-footer">
+            <button onclick="location.href='index.html';" class="logout-btn" data-bs-toggle="tooltip" data-bs-placement="right" title="Logout"><div class="me-2">Logout</div> <i class="fas fa-sign-out-alt"></i></button>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <div>
+                <label for="nav-toggle">
+                    <span class="fas fa-bars"></span>
+                </label>
+                <div class="sidebar-brand d-none d-sm-flex d-md-none">
+                    <div class="sidebar-brand-logo">
+                       <img src="assets/imagescompte/logo.png" alt="logo" >
+                    </div>
+                  
+                </div>
+            </div>
+            
+            <div class="search-bar">
+                <div class="input-group">
+                    <div class="form-outline">
+                      <input id="search-input" type="search" id="form1" class="form-control thesearch" />
+                      
+                    </div>
+                    <button id="search-button" type="button" class="btn btn-move">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </div>
+            </div>
+            <!-- <div class="search-bar">
+<input type="search">
+</div> -->
+            <div class="user-wrapper">
+                <img src="assets/imagescompte/undraw_profile_pic_ic-5-t.svg" width="50px" height="50px" alt="admin">
+
+                <div class="row d-none d-lg-flex">
+                    <h5 class="col-12">Ben Jeddou Yassine</h5>
+                    <small class="col-12">Bac informatique <i class="fas fa-circle fa-xs text-success"></i></small>
+                </div>
+            </div>
+        </header>
+   <main>
+       <h1>Les offres disponibles</h1>
+       <div class="container-fuild">          
+<div class="row offres">
+<div class="m-auto col-11 col-sm-10 col-md-6 col-lg-4">
+    <div class="m-auto pricing-card">
+        <h3 class="pricing-card-header">offre 1</h3>
+        <div class="price">40<span>/DT</span></div>
+        <ul>
+          <li><strong>cours enregistrés</strong> </li>
+          <li><strong>seances en direct</strong> </li>
+          <li><strong>voyages</strong> </li>
+          <li><strong>motivation</strong> </li>
+          <li><strong>exercices corrigés</strong> </li>
+        </ul>
+        <a href="#" class="order-btn">abonnez-vous</a>
+      </div>
+</div>
+<div class="m-auto col-11 col-sm-10 col-md-6 col-lg-4">
+    <div class="m-auto pricing-card">
+        <h3 class="pricing-card-header">offre 2</h3>
+        <div class="price">60<span>/DT</span></div>
+        <ul>
+          <li><strong>cours enregistrés</strong> </li>
+          <li><strong>seances en direct</strong> </li>
+          <li><strong>voyages</strong> </li>
+          <li><strong>motivation</strong> </li>
+          <li><strong>exercices corrigés</strong> </li>
+        </ul>
+        <a href="#" class="order-btn">abonnez-vous</a>
+      </div>
+</div>
+<div class="m-auto col-11 col-sm-10 col-md-6 col-lg-4">
+    <div class="m-auto mt-3 mt-lg-0 pricing-card">
+        <h3 class="pricing-card-header">offre 3</h3>
+        <div class="price">120<span>/DT</span></div>
+        <ul>
+          <li><strong>cours enregistrés</strong> </li>
+          <li><strong>seances en direct</strong> </li>
+          <li><strong>voyages</strong> </li>
+          <li><strong>motivation</strong> </li>
+          <li><strong>exercices corrigés</strong> </li>
+        </ul>
+        <a href="#" class="order-btn">abonnez-vous</a>
+      </div>
+</div>
+
+</div>
+       </div>
+   </main>
+    </div>
+    
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="jquery/dist/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
